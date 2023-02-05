@@ -1,4 +1,13 @@
+body{
+  min-height: 2000px;
+}
+
 .jumbotron {
   padding-top: 2rem;
   background-color: #def1f3;
+}
+
+#school{
+  background-color: #def1f3;
+  text-align: center;
 }
