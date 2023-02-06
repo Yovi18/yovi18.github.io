@@ -29,6 +29,7 @@ body {
    height: 100vh;
    background: var(--body-color);
    transition: var(--tran-03);
+   display: flex;
 }
 
 body.dark {
@@ -236,4 +237,20 @@ header .image-text .header-text{
 
 body.dark .switch::before{
    left: 25px;
+}
+
+/* content */
+.conten{
+   width: 100%;
+   margin: 30px;
+   margin-left: 270px;
+   margin-bottom: 30px;
+   background-color: white;
+   padding: 20px;
+   border: black 1px solid;
+   border-radius: 10px;
+}
+
+.conten.tutup{
+   margin-left: 110px;
 }
