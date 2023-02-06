@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Sidebar</title>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Boxicons Css -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="sidebar">
+    <!-- Header -->
+    <header>
+      <div class="image-text">
+        <!-- logo -->
+        <span class="image">
+          <img src="logo.png" alt="logo">
+        </span>
+        <!-- Judul -->
+        <div class="text header-text">
+          <span class="name">Yovi Azhari</span>
+          <span class="profession">Teacher</span>
+        </div>
+      </div>
+      <!-- toggle -->
+      <i class='bx bxs-chevron-right toggle'></i>
+    </header>
+    <!-- akhir header -->
+
+    <!-- Menu -->
+    <div class="menu-bar">
+      <div class="menu">
+        <!-- searching -->
+        <li class="search-box">
+          <i class='bx bx-search icon'></i>
+          <input type="search" placeholder="search">
+        </li>
+        
+        <!-- list menu -->
+        <ul class="menu-link">
+          <!-- dasboard -->
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-home-alt icon'></i>
+              <span class="text nav-text">Dashboard</span>
+            </a>
+          </li>
+          <!-- Revenue -->
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-bar-chart-alt-2 icon'></i>
+              <span class="text nav-text">Revenue</span>
+            </a>
+          </li>
+          <!-- Notification -->
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-bell icon'></i>
+              <span class="text nav-text">Notification</span>
+            </a>
+          </li>
+          <!-- Analytics -->
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-pie-chart-alt icon'></i>
+              <span class="text nav-text">Analytics</span>
+            </a>
+          </li>
+          <!-- likes -->
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-heart icon'></i>
+              <span class="text nav-text">likes</span>
+            </a>
+          </li>
+          <!-- Wallets -->
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-wallet icon'></i>
+              <span class="text nav-text">Wallets</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- bottom menu -->
+      <div class="bottom-content">
+        <!-- logout -->
+        <li class="nav-link">
+          <a href="#">
+            <i class='bx bx-log-out icon'></i>
+            <span class="text nav-text">logout</span>
+          </a>
+        </li>
+        <!-- mode -->
+        <li class="mode">
+          <div class="moon-sun">
+            <i class='bx bx-moon icon moon'></i>
+            <i class='bx bx-sun icon sun'></i>
+          </div>
+          <span class="mode-text text">Dark Mode</span>
+          <!-- toggle -->
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </div>
+    </div>
+    <!-- Akhir Menu -->
+  </nav>  
+  <!-- akhir naavigasi -->
+
+  <script src="scripts.js"></script>
+</body>
+</html>
