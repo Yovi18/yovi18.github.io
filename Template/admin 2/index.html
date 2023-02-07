@@ -8,12 +8,10 @@
 
   <!-- Css -->
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="to do list.css">
 
   <!-- Boxicons Css -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-  <!-- Iconscout -->
-  <link rel="stylesheet" href="<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">">
 
 </head>
 <body>
@@ -122,9 +120,50 @@
   <!-- Todo list -->
   <section class="conten">
     <div class="wrapper">
+      <!--  -->
       <div class="task-input">
+        <i class='bx bx-menu'></i>
         <input type="text" placeholder="add a new task">
       </div>
+      <!--  -->
+      <div class="controls">
+        <div class="filters">
+          <span id="all">all</span>
+          <span id="pending">pending</span>
+          <span id="completed">completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <!--  -->
+      <ul class="task-box">
+        <li class="task">
+          <label for="1">
+            <input type="checkbox" id="1">
+            <p>renew gym membership</p>
+          </label>
+          <div class="setting">
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+        </li>
+        <li class="task">
+          <label for="2">
+            <input type="checkbox" id="2">
+            <p>olah raga</p>
+          </label>
+          <div class="setting">
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+        </li>
+        <li class="task">
+          <label for="3">
+            <input type="checkbox" id="3">
+            <p>joging</p>
+          </label>
+          <div class="setting">
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
   

@@ -1,0 +1,31 @@
+.wrapper{
+  background-color: #ecfaff;
+  max-width: 405px;
+  margin: 30px auto;
+  border-radius: 7px;
+  padding: 28px 0;
+}
+
+.task-input{
+  height: 52px;
+  padding: 0 25px;
+  position: relative;
+}
+
+.task-input i{
+  position: absolute;
+  top: 50%;
+  transform: translate(17px, -50%);
+}
+
+.task-input input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  padding: 0 20px 0 50px;
+}
+
+/* *{border: black 1px solid;} */

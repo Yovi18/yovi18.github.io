@@ -30,6 +30,7 @@ body {
    background: var(--body-color);
    transition: var(--tran-03);
    display: flex;
+   overflow: hidden;
 }
 
 body.dark {
@@ -247,7 +248,6 @@ body.dark .switch::before{
    margin-bottom: 30px;
    background-color: white;
    padding: 20px;
-   border: black 1px solid;
    border-radius: 10px;
 }
 
